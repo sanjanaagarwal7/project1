@@ -1,0 +1,31 @@
+section{
+    display:flex;
+    height:400px;
+    justify-content:center;
+}
+.body{
+    background-color:rgba(255, 192, 203, 0.443);
+    align-items:center;
+    margin-bottom:10px;
+}
+article{
+    flex:1;
+    text-align:center;
+    margin:20px;
+    padding:5px;
+}
+#location{
+    border:2px solid black;
+    border-radius:20px;
+    background-color:rgba(255, 192, 203, 0.443);
+}
+#details{
+    border:2px solid black;
+    border-radius:20px;
+    background-color:rgba(255, 192, 203, 0.443);
+}
+#hours{
+    border:2px solid black;
+    border-radius:20px;
+    background-color:rgba(255, 192, 203, 0.443);
+}

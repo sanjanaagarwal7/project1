@@ -1,0 +1,15 @@
+.container{
+    display:flex;
+    height:25px;
+    align-self:center;
+    border:2px solid rgba(0, 0, 0, 0.477);
+    margin-left:10px;
+    padding:2px;
+}
+
+button{
+    border:0;
+}
+#bar{
+    border:0;
+}
