@@ -1,0 +1,14 @@
+.main{
+
+}
+
+section{
+  display:flex;
+  height:200px;
+}
+
+article{
+  flex:1;
+  text-align:center;
+  margin:5px;
+}
