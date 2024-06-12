@@ -29,3 +29,6 @@ nav{
     text-decoration:none;
 }
 
+#link:hover{
+    color:rgb(237, 20, 57);
+}

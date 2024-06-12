@@ -2,7 +2,7 @@ import React from 'react';
 import "./Header.css";
 
 import Homepage from "./Homepage";
-import About from "./About";
+import Form from "./Form";
 import {Routes,Route,Link} from "react-router-dom";
 function Header(){
     var url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_vsRr6NGdZxBWI2M8SVGdfpsEzvyir7tPog&s";
@@ -16,12 +16,12 @@ function Header(){
         </div>
         <nav>
         <Link to="/" id="link">Home</Link>
-        <Link to="/about"  id="link">About</Link>
+        <Link to="/form"  id="link">Reservations</Link>
         </nav>
         </div>
         <Routes className="routes">
             <Route path="/" element={<Homepage />}/>
-            <Route path="/about" element={<About />}/>
+            <Route path="/form" element={<Form />}/>
         </Routes>
         </>
     )

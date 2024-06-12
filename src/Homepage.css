@@ -1,7 +1,13 @@
-.main{
-
+.body{
+  background-color:#495e57;
+  padding-top:100px;
 }
-
+.body h1{
+  color:#f4ce14;
+}
+.body p{
+  color:rgba(255, 255, 255, 0.612);
+}
 section{
   display:flex;
   height:200px;
@@ -11,4 +17,17 @@ article{
   flex:1;
   text-align:center;
   margin:5px;
+}
+
+.about article{
+  border:1px solid black;
+  padding:4px;
+  margin-top:15px;
+  background-color:#495e57;
+}
+.about h2{
+  color:#f4ce14;
+}
+.about p{
+  color:rgba(255, 255, 255, 0.612);
 }
